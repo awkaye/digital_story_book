@@ -1,6 +1,28 @@
 body {
   background-color: #301671;
   }
+h1 {
+  color: white;
+  font-family: Georgia;
+  text-align: center;
+  text-shadow: 0 0 10px white;
+  }
+h2 {
+  color: white;
+  font-family: Georgia;
+  text-align: center;
+  text-shadow: 0 0 10px white;
+  }
+h3 {
+  color: white;
+  font-family: Garamond;
+  text-align: left;
+  }
+p {
+  color: white;
+  font-family: Times New Roman;
+  text-align: left;
+  }
 img {
   display: block;
   margin-left: auto;
