@@ -15,8 +15,13 @@ h2 {
   }
 h3 {
   color: white;
-  font-family: Garamond;
+  font-family: Verdana;
   text-align: left;
+  }
+fieldset {
+  background-color: #725491;
+  border-radius: 30px;
+  align: left;
   }
 p {
   color: white;
