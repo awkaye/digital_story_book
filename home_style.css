@@ -65,3 +65,8 @@ ul li a {
   text-decoration: none;
 }
 ul li a:hover {background-color: #ab75d3; border-radius: 30px;}
+
+blockquote {
+  color: white;
+  text-align: center;
+  }
