@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -22,22 +22,24 @@ h3 {
   font-family: Verdana;
   text-align: left;
   }
-p {
+.me {
   color: white;
   font-family: Times New Roman;
   text-align: center;
   }
-div {
-  width: 1300px;
+.profile {
+  width: 700px;
   height: 125px;
   padding: 10px;
-  border: 3px solid gray;
+  border: 0px solid white;
   margin: 0;
-  background-color: #725491;
-  border-radius: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #301671;
   align: center;
-   box-shadow: 10px 10px 5px lightblue;
   }
+
 img {
   display: block;
   margin-left: auto;
@@ -63,42 +65,27 @@ ul li a {
 }
 ul li a:hover {background-color: #ab75d3; border-radius: 30px;}
 
-.list {
+.next {
   list-style-type: none;
   margin: 1;
   padding: 0;
   background-color: #301671;
   display: flex;
   justify-content: center;
-  }
-.list .tale .story .link {
-  display: block;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  background-color: #39056b; 
-  border-radius: 30px;
+  position: sticky;
+  top: 0;
+  float: none;
 }
-.list .tale .story .link:hover {background-color: #ab75d3; border-radius: 30px;}
 
-.behind {
-  list-style-type: none;
-  margin: 1;
-  padding: 0;
-  background-color: #301671;
-  display: flex;
-  justify-content: center;
-  }
-.behind .the .legend {
+.next .page .mid {
   display: block;
   color: black;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: white; 
+  background-color: #e5cafa;
   border-radius: 30px;
 }
-.behind .the .legend:hover {background-color: #ab75d3; border-radius: 30px;}
-
+.next .page .mid:hover {background-color: #e5e3e6; border-radius: 30px;}
 </style>
 </head>
 <body>
@@ -111,7 +98,19 @@ ul li a:hover {background-color: #ab75d3; border-radius: 30px;}
 <br>
 <img src="https://awkaye.github.io/digital_story_book/Profile.jpg" width="250" height="250">
 <br>
-
+<div class="profile">
+<blockquote style="color: #9a979c;" align="center">STUDENT</blockquote>
+<p class="me">Name: Kashieca Kaye P. Renoballes<br>
+Section: STE 9 - Justice<br>
+Age: 15 years old<br><br>
+"A student learning HTML and CSS to build stronger skills."
+</p>
+</div>
+<br><br>
+<ul class="next">
+  <li class="page"><a href="https://awkaye.github.io/digital_story_book/home.html" class="mid">Back to Home ➤</a></li>
+</ul>
+<br><br><br>
 <blockquote style="color: white;" align="center">© Digital Story Book | Kashieca Kaye Renoballes | STE 9 - Justice</blockquote>
 </body>
 </html>
